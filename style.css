@@ -1,48 +1,50 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #FE139B
+  background-color: #111823
 }
 
 body{    
-  font-family: sans-serif
+  font-family: 'Vina Sans', 'Fira Sans', sans-serif
+  color: #ffffff
 }
 
 a{
-  color rgb ( 81, 255, 0)
+  color: #ee0a0a
 }
 
-a hover{
-  color rgb ( 0, 255, 0)
+a:hover{
+  color: #ffffff
 }
 
 
-Header, #aboutme {
+header, #aboutme {
     margin-bottom: 20px;
     padding: 20px;
-    border-bottom: 2px solid rgb(8, 252, 0);
+    border-bottom: 2px solid #fe0000;
   }
-}
+
 header h1{
   font-size: 2em;
 }
 
-header nav ul li (
+header nav ul li {
   display: inline;
-)
+}
 
 .clear{
   clear: both;
 }
-#project-container {
+#project-container, #aboutme {
     margin: 0 auto; /* centers projects div*/
     width: 90%; /*adds space on either side*/
     max-width: 600 px; /* keeps div from getting too wide*/
 }
   
 .project {
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgb(8, 252, 0);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 2px solid #fe0000;
 }
 
 .project img, #aboutme img {
@@ -50,7 +52,7 @@ header nav ul li (
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-  }
+}
 
 .project h2, #aboutme h2 {
     font-size: 1.5em;
